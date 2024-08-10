@@ -56,7 +56,7 @@ columns = ['Politician', 'Traded Issuer', 'Published', 'Traded', 'Filed After', 
 df = pd.DataFrame(values_list, columns=columns)
 
 # Save the DataFrame to an Excel file
-df.to_excel('capitol_trades_data.xlsx', index=False, header=True)
+df.to_excel('capitol_trades_data.xlsx', index=False, header=False)
 
 print("Data has been saved to capitol_trades_data.xlsx")
 
