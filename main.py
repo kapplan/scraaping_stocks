@@ -1,7 +1,6 @@
 import requests
 from bs4 import BeautifulSoup as bs
 import pandas as pd
-
 import time
 
 start_time = time.time()
@@ -47,3 +46,4 @@ df.to_excel('scraped_financial_data.xlsx', index=False)
 
 print("Data has been exported to scraped_financial_data.xlsx")
 print('--%s seconds ---' % (time.time() - start_time))
+
